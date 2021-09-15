@@ -1,0 +1,52 @@
+:root{
+    box-sizing: border-box;
+}
+
+#hours{
+    width: 290px;
+    background: gold;
+    height: 5px;
+    transform-origin: 50% 100%;
+    animation: rotate 43200s infinite steps(60);
+
+}
+.hands{
+    position: absolute;
+    top: 350px;
+    right: 0;
+    bottom: 0;
+    left: 250px;
+}
+#minutes{
+    width: 170px;
+    height: 5px;
+    background: white;
+    text-align: center;
+    animation: rotate 3600s infinite steps(60);
+}
+#seconds{
+    width: 280px;
+    height: 2px;
+    background: red;
+    text-align: right;
+    z-index: -10px;
+    /* position: relative; */
+    top: 350px;
+    left: 100px;
+    animation: rotate 60s infinite steps(60);
+}
+
+@keyframes rotate {
+    100% {
+      transform: rotateZ(360deg);
+    }
+  }
+#clockHead{
+    margin-top: 20px;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    border: 2px solid gold;
+    display: flex;
+    flex-direction: column;
+}

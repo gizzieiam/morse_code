@@ -1,0 +1,32 @@
+:root{
+    box-sizing: border-box;
+}
+/*login*/
+#login-form{
+    display: block;
+}
+/*register*/
+#register-form{
+    display: none;
+    /* columns: 2; */
+    column-count: 2;
+    /* column-gap: -110px; */
+}
+.toggle-btn{
+    border: none;
+    background-color: transparent;
+    color: blue;
+}
+#section-one{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 450px;
+}
+#welcome{
+    text-align: center;
+}
+#section-two{
+    position: relative;
+    top: -150px;
+}

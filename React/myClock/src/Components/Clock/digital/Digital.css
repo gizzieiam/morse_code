@@ -1,0 +1,21 @@
+/* digital clock stuff */
+#digTime{
+    /* P */
+    display: none;
+    color: white;
+    text-shadow: yellow;
+    font-size: xx-large;
+    font-family: 'Orbitron', sans-serif;
+
+    
+}
+.btn{
+    border: 1px solid white;
+    padding: 20px;
+    color: white;
+    background: black;
+    font-family: 'Orbitron', sans-serif;
+}
+#Digbtn2{
+    display: none;
+}
